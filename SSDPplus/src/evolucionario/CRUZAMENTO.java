@@ -36,7 +36,8 @@ public class CRUZAMENTO {
         Pattern[] Pnovo = new Pattern[tamanhoPopulacao];
         
         //int[] selecao = SELECAO.proporcao25_75(tamanhoPopulacao);
-        int[] selecao = SELECAO.torneioBinario(tamanhoPopulacao, P);           
+        //int[] selecao = SELECAO.torneioBinario(tamanhoPopulacao, P);
+        int[] selecao = SELECAO.torneioBinarioComTamanhoTorneio(tamanhoPopulacao, P, 5);           
         
         int indiceSelecao = 0;
         int indicePnovo = 0;
